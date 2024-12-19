@@ -1,5 +1,5 @@
 class ProductsController < ApplicationController
-  before_action :set_product, only: %i[ show edit udpate]
+  before_action :set_product, only: %i[ show edit udpate destroy ]
   
   def index
     @products = Product.all
@@ -28,6 +28,11 @@ class ProductsController < ApplicationController
     if @product.udpate(product_params)
       redirect_to @product
     end
+  end
+
+  def destroy
+    @product.destroy
+    redirect_to products_path
   end
 
   private
