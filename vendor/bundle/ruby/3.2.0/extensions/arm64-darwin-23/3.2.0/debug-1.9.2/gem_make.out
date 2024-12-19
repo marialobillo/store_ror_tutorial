@@ -1,0 +1,20 @@
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+/Users/maria/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-zdf620 sitelibdir\=./.gem.20241218-64217-zdf620 clean
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-zdf620 sitelibdir\=./.gem.20241218-64217-zdf620
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-zdf620 sitelibdir\=./.gem.20241218-64217-zdf620 install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20241218-64217-zdf620/debug
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-zdf620 sitelibdir\=./.gem.20241218-64217-zdf620 clean

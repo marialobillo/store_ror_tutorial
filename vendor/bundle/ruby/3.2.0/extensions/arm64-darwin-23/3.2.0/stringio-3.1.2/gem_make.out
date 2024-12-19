@@ -1,0 +1,19 @@
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.2/ext/stringio
+/Users/maria/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-7amns5 sitelibdir\=./.gem.20241218-64217-7amns5 clean
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-7amns5 sitelibdir\=./.gem.20241218-64217-7amns5
+compiling stringio.c
+linking shared-object stringio.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-7amns5 sitelibdir\=./.gem.20241218-64217-7amns5 install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 stringio.bundle ./.gem.20241218-64217-7amns5
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/stringio-3.1.2/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-7amns5 sitelibdir\=./.gem.20241218-64217-7amns5 clean

@@ -1,0 +1,23 @@
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+/Users/maria/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-bx9c3c sitelibdir\=./.gem.20241218-64217-bx9c3c clean
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-bx9c3c sitelibdir\=./.gem.20241218-64217-bx9c3c
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-bx9c3c sitelibdir\=./.gem.20241218-64217-bx9c3c install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20241218-64217-bx9c3c/bootsnap
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-bx9c3c sitelibdir\=./.gem.20241218-64217-bx9c3c clean

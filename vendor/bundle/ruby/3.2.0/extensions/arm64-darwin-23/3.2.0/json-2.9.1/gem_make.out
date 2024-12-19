@@ -1,0 +1,25 @@
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/json-2.9.1/ext/json/ext/parser
+/Users/maria/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for strnlen() in string.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-uw7oda sitelibdir\=./.gem.20241218-64217-uw7oda clean
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-uw7oda sitelibdir\=./.gem.20241218-64217-uw7oda
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-uw7oda sitelibdir\=./.gem.20241218-64217-uw7oda install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 parser.bundle ./.gem.20241218-64217-uw7oda/json/ext
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/json-2.9.1/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-uw7oda sitelibdir\=./.gem.20241218-64217-uw7oda clean

@@ -1,0 +1,31 @@
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/psych-5.2.2/ext/psych
+/Users/maria/.rvm/rubies/ruby-3.2.2/bin/ruby extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/psych-5.2.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-piek4u sitelibdir\=./.gem.20241218-64217-piek4u clean
+cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/psych-5.2.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-piek4u sitelibdir\=./.gem.20241218-64217-piek4u
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/psych-5.2.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-piek4u sitelibdir\=./.gem.20241218-64217-piek4u install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 psych.bundle ./.gem.20241218-64217-piek4u
+
+current directory: /Users/maria/Code/rails-path/store/vendor/bundle/ruby/3.2.0/gems/psych-5.2.2/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20241218-64217-piek4u sitelibdir\=./.gem.20241218-64217-piek4u clean
+cd libyaml && /Library/Developer/CommandLineTools/usr/bin/make clean
+/bin/sh: line 0: cd: libyaml: No such file or directory
+make: [clean-so] Error 1 (ignored)
