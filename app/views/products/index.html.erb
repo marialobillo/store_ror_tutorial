@@ -1,9 +1,11 @@
-<h1>Products#index</h1>
+<h1>Products#index Link</h1>
 
 <div id="products">
   <% @products.each do |product| %>
     <div>
-      <%= product.name %>
+      <a href="/products/<%= product.id %>">
+        <%= product.name %>
+      </a>
     </div>
   <% end %>
   </div>
