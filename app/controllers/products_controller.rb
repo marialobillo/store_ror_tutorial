@@ -25,7 +25,7 @@ class ProductsController < ApplicationController
   end
 
   def update
-    if @product.udpate(product_params)
+    if @product.update(product_params)
       redirect_to @product
     end
   end
