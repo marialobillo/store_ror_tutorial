@@ -5,6 +5,9 @@
   <p>
     <%= @product.description%>
   </p>
+  <p >
+    <%= image_tag @product.featured_image, style: "width: 200px; height: auto;" if @product.featured_image.attached? %>
+  </p>
 <% end %>
 
 <%= link_to "Back", products_path %>

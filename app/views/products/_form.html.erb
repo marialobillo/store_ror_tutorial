@@ -10,6 +10,11 @@
   </div>
 
   <div>
+    <%= f.label :featured_image, style: "display: block" %>
+    <%= f.file_field :featured_image, accept: "image/*" %>
+  </div>
+
+  <div>
     <%= f.submit %>
   </div>
 <% end %>
