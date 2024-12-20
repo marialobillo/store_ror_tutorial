@@ -1,7 +1,10 @@
 <h1>Product Show</h1>
 
 <% cache @product do %>
-<h3><%= @product.name %></h3>
+  <h3><%= @product.name %></h3>
+  <p>
+    <%= @product.description%>
+  </p>
 <% end %>
 
 <%= link_to "Back", products_path %>
