@@ -1,6 +1,8 @@
 <h1>Product Show</h1>
 
+<% cache @product do %>
 <h3><%= @product.name %></h3>
+<% end %>
 
 <%= link_to "Back", products_path %>
 <% if authenticated? %>
