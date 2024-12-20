@@ -22,6 +22,18 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <nav>
+      <h2>Nav Bar</h2>
+      <%= link_to "Home", root_path %>
+      <%= link_to "Login", new_session_path unless authenticated? %>
+      <%= button_to "Log out", session_path, method: :delete if authenticated? %>
+
+    </nav>
+
+    <main>
+      <%= yield %>
+    </main>
+    
   </body>
 </html>
