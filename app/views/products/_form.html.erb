@@ -1,0 +1,11 @@
+<%= form_with model: product, local: true do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>
+
